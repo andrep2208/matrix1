@@ -1,6 +1,6 @@
 
 function Flow() {
-    let randomplace = floor(random(0, 39))*20
+    let randomplace = floor(random(0, 29))*30
     let numberofword = floor(random(1, 15));
     let randomstart = floor(random(0,300))
     let word = [];
@@ -21,7 +21,7 @@ function Flow() {
 
     this.replay = function () {
         if ( word[word.length-1].y - word[word.length-1].a - word[word.length-1].b   == 600 + wordSize ){
-            console.log('true')
+            //console.log('true')
             for (i = 0; i < word.length; i++){
                 word[i].y = 0;
             }
