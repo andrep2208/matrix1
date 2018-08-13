@@ -4,7 +4,7 @@ function Word (a, x, b) {
     this.x = x;
     this.y = 0;
     this.gravity = 0;
-    this.velocity = 2;
+    this.velocity = 1;
     this.a = a;
     this.b = b;
   

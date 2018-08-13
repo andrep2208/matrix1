@@ -1,13 +1,13 @@
 
 var flow = [];
-//var flow1;
+// var flow1;
 var wordSize = 30;
 function setup () {
   createCanvas(800,600); 
-  for (let i = 0; i < 50; i++){
+  for (let i = 0; i < 10; i++){
     flow[i] = new Flow();
   }
-  //flow1 = new Flow();
+  // flow1 = new Flow();
 
 }
 
@@ -22,6 +22,7 @@ function draw() {
     //flow.render();
     // flow1.render();
     // flow1.replay();
+
 
 
 
