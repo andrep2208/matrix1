@@ -1,15 +1,10 @@
 
 function Flow() {
-    let randomplace = floor(random(0, 30))*20
-    let numberofword;
-    let randomstart = floor(random(0,100))
+    let randomplace = floor(random(0, 39))*20
+    let numberofword = floor(random(1, 15));
+    let randomstart = floor(random(0,300))
     let word = [];
 
-    this.updatenumberofword = function() {
-        numberofword = floor(random(1, 15));
-    }
-
-    this.updatenumberofword();
 
 
     for (i= 0; i< numberofword ; i++) {

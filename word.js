@@ -1,4 +1,5 @@
 function Word (a, x, b) {  
+  
     let randomnum;
     this.x = x;
     this.y = 0;
@@ -11,7 +12,7 @@ function Word (a, x, b) {
     this.render = function() {
       textSize(wordSize);
   
-      if (frameCount % 10 == 0 ){
+      if (frameCount % 20 == 0 ){
         randomnum = random()*33
       }
   
