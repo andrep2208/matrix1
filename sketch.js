@@ -1,6 +1,6 @@
 var flow = [];
 var wordSize = 30;
-var numberofflow = 50;
+var numberofflow = 80;
 
 
 function setup () {

@@ -18,11 +18,11 @@ function Word (a, x, b,speed) {
 
     push()
 
-    fill(255-fade,0,0);
+    fill(255-fade,0,255-fade);
 
     if (this.glow == 1) {
       stroke('white');
-      strokeWeight(3.5 - fade/200);
+      strokeWeight(7 - fade/200);
       smooth();
     }
     textStyle(BOLD)

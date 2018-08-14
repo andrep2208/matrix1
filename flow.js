@@ -14,7 +14,7 @@ function Flow() {
     this.render = function () {
         
         for (i = 0; i < this.numberofword; i++){
-            this.word[i].render(i*this.speed);
+            this.word[i].render(i*this.speed*2.5);
             this.word[i].update();
         }
         
